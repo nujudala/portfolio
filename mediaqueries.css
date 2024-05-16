@@ -1,0 +1,160 @@
+@media screen and (max-width: 1400px){
+    #contains{
+        height: 83vh;
+        margin: bottom 6rem; 
+    }
+}
+@media screen and (max-width: 1200px){
+    #contains{
+        display: block;
+        height: fit-content;
+        margin: 0 5%;
+    }
+    /*box*/
+    .container .box{
+        height: 80vh;
+        width: 60%;
+        padding: 0 10px;
+        margin-right: 50px;
+        margin-bottom: 80px;
+        background: rgba(255, 255, 255, 0.1);
+        z-index: 10;
+        display: flex;
+        position: relative;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(25px);
+        box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.15);
+    }
+    /*ملف الأعمال*/
+.container .box nav .logo {
+    font-size: 20px;
+    color: #242329;
+    font-weight: bold;
+    margin-top: -10px;
+    display: inline-block;
+    margin-left: 130px;
+  }
+  /*text*/
+  .contains .section-1 h1 {
+    margin-bottom: 10px;
+    margin-top: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #242329;
+    text-align: right;
+    width: 100%;
+  }
+  .contains .section-1 h3 {
+    color: #6f34fe;
+    margin-bottom: 5px;
+    font-size: 11px;
+    text-align: right;
+    margin-left: 0px;
+  }
+  .contains .section-1 p {
+    font-size: 8px;
+    width: 100%;
+    height: 100%;
+    color: #505052;
+    margin-bottom: 50px;
+    text-align: right;
+  }
+  /*محاذات الكلام كله*/
+  .contains .section-1{
+    width: 100%;
+    position: relative;
+    display:block;
+    margin-left: 70px;
+    margin-top: 330px;
+    
+  }
+  /*cv*/
+.contains .section-1 .btn {
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #6f34fe;
+    border: 1px solid #6f34fe;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 10;
+    font-size: small;
+    display: inline-block;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 80px;
+    margin-left: -10px;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+
+    /*margin-left: 90px ;*/
+  }
+  .contains .section-1 .btn:hover {
+    color: #6f34fe;
+    transition: 0.3s;
+    background-color: #cdddf3;
+    border: 1px solid;
+  }
+  /*art work*/
+.contains .section-1 .btn1 {
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #6f34fe;
+    border: 1px solid #6f34fe;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 10;
+    font-size: small;
+    display: inline-block;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin-right: 40px;
+    margin-left: -10px;
+    margin-bottom: 100%;
+    
+  }
+  .contains .section-1 .btn1:hover {
+    color: #6f34fe;
+    transition: 0.3s;
+    background-color: #cdddf3;
+    border: 1px solid;
+    
+  }
+  /*logo*/
+#section-2 {
+    display: flex;
+  }
+  .contains .section-2 {
+    width: 100%;
+    /*margin-right: 90px;*/
+  }
+  .contains .section-2 img {
+    width: 200px;
+    margin-right: 200px;
+    margin-bottom: 180px;
+    margin-left: -150px;
+
+    /*margin-left: 90;*/
+  }
+  /*icons*/
+.contains .section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    left: 0px;
+    top: 35%;
+  }
+  .contains .section-3 a i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #7c8bd1;
+    transition: 0.3s;
+  }
+  .contains .section-3 i:hover {
+    color: #6f34fe;
+  }
+
+}
