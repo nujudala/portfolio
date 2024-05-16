@@ -141,7 +141,7 @@
   justify-content: center;
   gap: 1rem;
   margin-right: 40px;
-  margin-left: -10px;
+  margin-left: -20px;
 }
 .contains .section-1 .btn1:hover {
   color: #6f34fe;
